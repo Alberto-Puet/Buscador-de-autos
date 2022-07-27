@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(180deg,rgb(212, 214, 216,.7),rgb(196, 215, 215,.7));
+    font-family: 'Staatliches', cursive;
+    padding-bottom: 4rem;
+    height:100%;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: #24adcf;
+}
+.contenedor {
+    background-color: rgba(0,0,0,0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-size: 2rem;
+}
+h1,h2, p {
+    text-align: center;
+}
+h2{
+    color: #24adcf;
+}
+form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem;
+    background: #24adcf;
+    border-radius: 1rem;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+#resultado p span {
+    font-weight: bold;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0 0 1rem 1rem;
+}
+.error {
+    background-color: red;
+}
+
+.sitio-web  {
+    color: white;
+    display: block;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+}
+.sitio-web:hover {
+    color: white;
+}
+
+#buscador{
+    width: 112rem;
+}
+
+/* Boton reset */
+
+.reset{
+    margin: -3rem auto 4rem;
+    background-color: #2fac72;
+    font-size: 2rem;
+    color: #222;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+
+.reset:hover{
+    background-color: #329567;
+    color: #222;
+}
